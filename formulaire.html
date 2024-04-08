@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Formulaire</legend>
+            <br>
+            <fieldset>
+                <legend>Identitée</legend>
+            <label for="nom">Nom : <input type="text" name="nom" id="nom" placeholder="MATIN"></label>
+            <label for="prenom">Prénom : <input type="text" name="prenom" id="prenom" placeholder="Martin"></label>
+            <br><br>
+            <label for="age">Age : <input type="date" name="age" id="age"></label></fieldset>
+            <br>
+                <fieldset>
+                    <legend>Genre</legend>
+                <input type="checkbox" name="Féminin">Féminin
+                <input type="checkbox" name="Masculin">Masculin
+                <input type="checkbox" name="Autre">Autre</fieldset>
+                <br>
+            Avez-vous le permis ?
+                <label for="oui"><input type="radio" name="permis" id="oui">oui</label>
+                <label for="non"><input type="radio" name="permis" id="non">non</label>
+                <br><br>
+            <select name="Pays">
+                <option value="FRANCE">FRANCE</option>
+                <option value="ALGERIE">ALGERIE</option>
+            </select>
+            <br><br>
+            <label for="tel">Numéro de téléphone : <input type="text" name="tel" id="tel" placeholder="0607080910" maxlength="10"></label>
+            <br><br>
+            <label for="mail">Email : <input type="email" id="mail" placeholder="martinmatin@gmail.com"></label>
+            <br><br>
+            <label for="password">Mot de passe : <input type="password" id="password" placeholder="*************"></label>
+            <br><br>
+            <input type="reset">
+            <button><a href="erreur404.html">Envoyer</a></button>
+        </fieldset>
+    </form>
+</body>
+</html>
